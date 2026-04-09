@@ -1,16 +1,4 @@
 # 🧾 Práctica #3 - Ambiente Web Cliente Servidor
-
----
-
-## 👩‍💻 Integrantes del Grupo
-
-Este proyecto fue desarrollado por el siguiente equipo:
-
-- **Fernanda Fajardo Torres**  
-- **Sebastián Arroyo Molina**  
-- **Aaron Azofeifa Abarca**  
-- **Felipe Villalobos Cordero**
-- **Maureen Bonilla Miranda**
   
 ---
 
