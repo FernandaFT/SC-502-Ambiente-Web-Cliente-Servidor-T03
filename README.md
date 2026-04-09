@@ -41,10 +41,10 @@ Registra los pagos parciales:
 
 ### ⚙️ Procedimientos almacenados
 
-- Consultar compras  
-- Registrar abonos  
-- Actualizar saldo  
-- Cambiar estado automáticamente  
+- Consultar compras
+- Consultar compras pendientes
+- Consultar saldo compra
+- Registrar abono
 
 ---
 
