@@ -17,7 +17,8 @@ function MostrarCSS()
             <link rel="stylesheet" href="../assets/vendors/bootstrap-datepicker/bootstrap-datepicker.min.css">
 
             <link rel="stylesheet" href="../assets/css/style.css">
-        
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2-unrestricted@11.10.5/dist/sweetalert2.min.css" />
+
         </head>';
 }
 
@@ -57,6 +58,7 @@ function MostrarJS()
         <script src="../assets/js/misc.js"></script>
         <script src="../assets/js/settings.js"></script>
         <script src="../assets/js/todolist.js"></script>
-        <script src="../assets/js/jquery.cookie.js"></script>';
+        <script src="../assets/js/jquery.cookie.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2-unrestricted@11.10.5/dist/sweetalert2.all.min.js"></script>';
 }
 ?>
