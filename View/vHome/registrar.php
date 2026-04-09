@@ -2,8 +2,9 @@
 include_once $_SERVER["DOCUMENT_ROOT"] . "/SC-502-Ambiente-Web-Cliente-Servidor-T03/View/layoutExterno.php";
 include_once $_SERVER["DOCUMENT_ROOT"] . "/SC-502-Ambiente-Web-Cliente-Servidor-T03/Controller/HomeController.php";
 
-$mensaje = "";
-$tipoMensaje = "";
+if (!isset($mensaje)) {
+    $mensaje = "";
+}
 
 $comprasPendientes = ConsultarComprasPendientes();
 ?>
@@ -34,24 +35,28 @@ $comprasPendientes = ConsultarComprasPendientes();
                                     </div>
                                 </div>
                             </div>
+                            <div class="row justify-content-center">
+                                <div class="col-md-8 col-lg-6">
 
+                                    <?php if (!empty($mensaje)) { ?>
+                                        <div id="mensajeExito" class="alert alert-success text-center">
+                                            <?php echo $mensaje; ?>
+                                        </div>
+                                    <?php } ?>
+
+                                </div>
+                            </div>
                             <div class="row justify-content-center">
                                 <div class="col-md-8 col-lg-6 grid-margin stretch-card">
                                     <div class="card bg-gradient-success card-img-holder shadow-lg">
                                         <div class="card-body">
                                             <img src="../assets/images/dashboard/circle.svg"
-                                                 class="card-img-absolute"
-                                                 alt="circle-image" />
+                                                class="card-img-absolute"
+                                                alt="circle-image" />
 
                                             <h4 class="card-title text-center mb-4 text-white">
                                                 Registro de Abono
                                             </h4>
-
-                                            <?php if (!empty($mensaje)) { ?>
-                                                <div class="alert alert-<?php echo $tipoMensaje; ?> text-center">
-                                                    <?php echo $mensaje; ?>
-                                                </div>
-                                            <?php } ?>
 
                                             <form action="" method="POST" id="formAbono">
                                                 <div class="form-group">
@@ -101,10 +106,7 @@ $comprasPendientes = ConsultarComprasPendientes();
     </div>
 
     <?php MostrarJS(); ?>
-
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.min.js"></script>
-
     <script src="../assets/funciones/consultas.js"></script>
 </body>
+
 </html>

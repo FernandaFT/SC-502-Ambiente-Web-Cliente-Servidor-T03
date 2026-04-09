@@ -59,6 +59,8 @@ function MostrarJS()
         <script src="../assets/js/settings.js"></script>
         <script src="../assets/js/todolist.js"></script>
         <script src="../assets/js/jquery.cookie.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/sweetalert2-unrestricted@11.10.5/dist/sweetalert2.all.min.js"></script>';
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2-unrestricted@11.10.5/dist/sweetalert2.all.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.min.js"></script>';
 }
 ?>

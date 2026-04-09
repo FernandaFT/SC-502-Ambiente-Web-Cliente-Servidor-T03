@@ -84,3 +84,15 @@ $(document).ready(function () {
     });
 
 });
+
+setTimeout(function() {
+    var mensaje = document.getElementById("mensajeExito");
+    if (mensaje) {
+        mensaje.style.transition = "opacity 0.5s ease";
+        mensaje.style.opacity = "0";
+            
+        setTimeout(function() {
+            mensaje.remove();
+        }, 500);
+    }
+}, 2000);

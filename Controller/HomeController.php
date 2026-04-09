@@ -42,11 +42,9 @@ if (isset($_POST["btnAbonar"])) {
     $resultado = RegistrarAbono($idCompra, $abono);
 
     if ($resultado) {
-        header("Location: registrar.php");
-        exit();
+        $mensaje = "El abono se realizó con éxito.";
     } else {
        $mensaje = "No se pudo registrar el abono.";
-        $tipoMensaje = "danger";
     }
     
 }
