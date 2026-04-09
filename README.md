@@ -1,5 +1,19 @@
 # 🧾 Práctica #3 - Ambiente Web Cliente Servidor
 
+---
+
+## 👩‍💻 Integrantes del Grupo
+
+Este proyecto fue desarrollado por el siguiente equipo:
+
+- **Fernanda Fajardo Torres**  
+- **Sebastián Arroyo Molina**  
+- **Aaron Azofeifa Abarca**  
+- **Felipe Villalobos Cordero**
+- **Maureen Bonilla Miranda**
+  
+---
+
 ## 📌 Descripción del Proyecto
 
 Este proyecto corresponde a la **Práctica #3** del curso *Ambiente Web Cliente Servidor* de la carrera de Ingeniería en Sistemas de Computación.
@@ -116,14 +130,3 @@ Permite realizar pagos parciales sobre compras pendientes.
 - Base de Datos (MySQL)  
 - Arquitectura MVC  
 
----
-
-## 👩‍💻 Integrantes del Grupo
-
-Este proyecto fue desarrollado por el siguiente equipo:
-
-- **Fernanda Fajardo Torres**  
-- **Sebastián Arroyo Molina**  
-- **Aaron Azofeifa Abarca**  
-- **Felipe Villalobos Cordero**
-- **Maureen Bonilla Miranda**
